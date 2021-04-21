@@ -1,5 +1,7 @@
 # Article.DatastreamEikonAPI.Python.ForecastingInflationRomanianCaseStudyUsingSARIMAModels
 
+## [See original article here](https://developers.refinitiv.com/en/article-catalog/article/forecasting-inflation-romanian-case-study-using-sarima-models)
+
 In this article, we look at (i) how to merge [Datastream](https://www.refinitiv.com/en/products/datastream-macroeconomic-analysis) and [Eikon](https://developers.refinitiv.com/en/api-catalog/eikon/eikon-data-api) / [Refinitiv Data Platform (RDP)](https://developers.refinitiv.com/en/api-catalog/refinitiv-data-platform/refinitiv-data-platform-apis) data in Python and (ii) how one may choose an optimal SARIMA model by selecting the one with lowest in-sample errors. We also look into how one may use both Eikon and Datastream data together, as well as statistical concepts of stationarity and differencing among others. We also investigate and compare models only using comparative months (*e.g.*: Jan. with Jan., Feb. with Feb., *etc.*).
 
 We find that the optimal model is a SARIMA(5,0,4)(4,0,0)12}.
